@@ -1,0 +1,93 @@
+.homepage {
+  display: flex;
+  width: 75wh;
+  height: 100vh;
+  padding-left: 20rem;
+}
+
+.homeImg {
+  display: flex;
+  justify-content: center;
+  padding-top: 8rem;
+  padding: 2rem 0 2rem 15rem;
+}
+
+.homeImg img {
+  border-radius: 50%;
+  width: 250px;
+  margin: auto;
+  background-image: linear-gradient(90deg, #9572fc 0%, #43e7ad);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  padding: 8px;
+  transition: transform 0.3s;
+}
+
+.homepageP {
+  width: 55rem;
+}
+
+.homepageTitle h1 {
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+}
+
+.homepageTitle span {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.homepageTitle p {
+  padding-top: 1rem;
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.socialList {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  font-size: 4rem;
+  gap: 3rem;
+}
+
+.itemSocialList {
+  width: 2rem;
+  height: 2rem;
+}
+
+a {
+  color: gray;
+}
+
+a:hover {
+  color: #5bc3c4;
+}
+
+@media (max-width: 1200px) {
+  .homepage {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 2rem 0;
+  }
+
+  .homepageTitle {
+    padding-top: 1rem;
+  }
+
+  .homeImg {
+    padding: 8rem 0 0 0;
+  }
+
+  .homepageP {
+    width: 20rem;
+  }
+}

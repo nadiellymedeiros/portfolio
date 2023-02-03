@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #121214;
+}
+
+body * {
+  font-family: "Inter", sans-serif;
+  line-height: 160%;
+}
+
+header {
+  padding-top: 32px;
+  /*text-align: center; img é tipo texto entao alinha mas agora esta como div e nao alinha mais, o margim auto alinha no centro*/
+  height: calc(120px+32px);
+}
+
+header div {
+  width: 300px;
+  margin: 2rem;
+  background-image: linear-gradient(90deg, #9572fc 0%, #43e7ad);
+  border-radius: 50%;
+  display: flex; /*vai centralizar a foto com a div*/
+  padding: 4px; /*preenche pra fora e mostra o gradiente colorido*/
+  transition: transform 0.3s;
+}
+
+header div:hover {
+  transform: scale(1.1);
+}
+
+header div img {
+  width: 100%;
+  border-radius: 50%;
+}

@@ -1,0 +1,103 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-size: 1.2rem;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+}
+
+.aboutMeImg {
+  padding: 1rem;
+}
+
+.aboutMeTitle img {
+  border-radius: 50%;
+  width: 250px;
+  margin: auto;
+  background-image: linear-gradient(90deg, #9572fc 0%, #43e7ad);
+  border-radius: 50%;
+  display: flex;
+  padding: 8px;
+  transition: transform 0.3s;
+}
+
+.aboutMeTitle img:hover {
+  transform: scale(1.1);
+}
+
+.aboutMeTitle {
+  padding-left: 20rem;
+}
+
+.aboutMeTitle h1 {
+  margin-top: 0.1rem;
+  color: white;
+  font-size: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+.aboutMeTitle h4 {
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.aboutMe p {
+  font-size: 1rem;
+  color: white;
+}
+
+span {
+  font-size: 2rem;
+  color: #5bc3c4;
+}
+
+.aboutMe {
+  padding: 2rem;
+  text-align: justify;
+}
+
+.aboutMeInfo p {
+  text-align: start;
+  padding: 0.3rem;
+  font-size: 1rem;
+  color: white;
+}
+
+.aboutMeInfo {
+  display: flex;
+  padding: 2rem;
+}
+
+@media (max-width: 1200px) {
+  .aboutMeTitle img {
+    border-radius: 50%;
+    width: 150px;
+    margin: auto;
+    background-image: linear-gradient(90deg, #9572fc 0%, #43e7ad);
+    border-radius: 50%;
+    display: flex;
+    padding: 8px;
+    transition: transform 0.3s;
+  }
+  .aboutMeTitle {
+    padding: 8rem 0;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  h4 {
+    margin-left: 0;
+    font-size: 2rem;
+  }
+
+  h4 span {
+    font-size: 2rem;
+  }
+}
