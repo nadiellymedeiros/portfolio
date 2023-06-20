@@ -2,10 +2,12 @@ import analogicClock from "./worksImg/analogicClock.png";
 import calculatorBlackOrWhite from "./worksImg/calculatorBlackOrWhite.png";
 import calculatorWhithHistory from "./worksImg/calculatorWhiteHistory.png";
 import creditCard from "./worksImg/creditCard.png";
-import FinancialControl from "./worksImg/FinancialControl.png";
+import financialControl from "./worksImg/financialControl.png";
 import imaFashion from "./worksImg/imaFashion.png";
 import marioGame from "./worksImg/marioGame.png";
 import ticTacToe from "./worksImg/ticTacToe.png";
+import newsAPI from "./worksImg/newsAPI.png";
+import investmentsControl from "./worksImg/investmentsControl.png";
 
 export const worksData = [
   {
@@ -50,7 +52,7 @@ export const worksData = [
 
   {
     id: "4",
-    img: FinancialControl,
+    img: financialControl,
     worksName: "Controle Financeiro",
     url: "https://nimble-nasturtium-aeb258.netlify.app/",
     github: "https://github.com/nadiellymedeiros/Financial-Control",
@@ -87,5 +89,35 @@ export const worksData = [
     github: "https://github.com/nadiellymedeiros/tic-tac-toe_Jogo-da-velha",
     Description: "Jogo da velha",
     stacks: ["Javascript", "HTML", "CSS"],
+  },
+
+  {
+    id: "8",
+    img: newsAPI,
+    worksName: "Tech pro bem",
+    url: "https://challenge-news-tech-probem.vercel.app/",
+    github: "https://github.com/nadiellymedeiros/challenge-news-tech-probem",
+    Description: "Um portal de notícias consumindo uma a API newsAPI",
+    stacks: ["HTML", "CSS", "Next"],
+  },
+
+  {
+    id: "9",
+    img: investmentsControl,
+    worksName: "Controle de investimentos",
+    url: "https://lucky-sfogliatella-1d205b.netlify.app/",
+    github: "https://github.com/nadiellymedeiros/investment-control",
+    Description: "Um portal de notícias consumindo uma a API newsAPI",
+    stacks: ["HTML", "CSS", "Javascript"],
+  },
+
+  {
+    id: "9",
+    img: portifolio,
+    worksName: "Controle de investimentos",
+    url: "https://rainbow-khapse-aacd1c.netlify.app/",
+    github: "https://github.com/nadiellymedeiros/portfolio",
+    Description: "Um portal de notícias consumindo uma a API newsAPI",
+    stacks: ["HTML", "CSS", "Javascript"],
   },
 ];
