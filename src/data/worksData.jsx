@@ -8,6 +8,8 @@ import marioGame from "./worksImg/marioGame.png";
 import ticTacToe from "./worksImg/ticTacToe.png";
 import newsAPI from "./worksImg/newsAPI.png";
 import investmentsControl from "./worksImg/investmentsControl.png";
+import portifolio from "./worksImg/portifolio.png";
+import simpleToDo from "./worksImg/simpleToDo.png";
 
 export const worksData = [
   {
@@ -112,12 +114,22 @@ export const worksData = [
   },
 
   {
-    id: "9",
+    id: "10",
     img: portifolio,
     worksName: "Controle de investimentos",
     url: "https://rainbow-khapse-aacd1c.netlify.app/",
     github: "https://github.com/nadiellymedeiros/portfolio",
     Description: "Um portal de notícias consumindo uma a API newsAPI",
+    stacks: ["HTML", "CSS", "Javascript"],
+  },
+
+  {
+    id: "11",
+    img: simpleToDo,
+    worksName: "To do simples",
+    url: "https://to-do-simple-leoujo.vercel.app/",
+    github: "https://github.com/nadiellymedeiros/to-do-Simple-Leoujo",
+    Description: "To do list com checkbox , excluir e editar a tarefa",
     stacks: ["HTML", "CSS", "Javascript"],
   },
 ];
