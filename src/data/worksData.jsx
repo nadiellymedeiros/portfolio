@@ -109,7 +109,7 @@ export const worksData = [
     worksName: "Controle de investimentos",
     url: "https://lucky-sfogliatella-1d205b.netlify.app/",
     github: "https://github.com/nadiellymedeiros/investment-control",
-    Description: "Um portal de notícias consumindo uma a API newsAPI",
+    Description: "Controle de investimento separando por categorias",
     stacks: ["HTML", "CSS", "Javascript"],
   },
 
