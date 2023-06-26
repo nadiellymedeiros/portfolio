@@ -119,7 +119,7 @@ export const worksData = [
     worksName: "Controle de investimentos",
     url: "https://rainbow-khapse-aacd1c.netlify.app/",
     github: "https://github.com/nadiellymedeiros/portfolio",
-    Description: "Um portal de notícias consumindo uma a API newsAPI",
+    Description: "Portifólio com trabalhos feitos para treinar as tecnologias estudadas.",
     stacks: ["HTML", "CSS", "Javascript"],
   },
 
