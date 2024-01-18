@@ -10,6 +10,9 @@ import newsAPI from "./worksImg/newsAPI.png";
 import investmentsControl from "./worksImg/investmentsControl.png";
 import portifolio from "./worksImg/portifolio.png";
 import simpleToDo from "./worksImg/simpleToDo.png";
+import taskManager from "./worksImg/taskManager.png";
+import githubFinder from "./worksImg/githubFinder.png";
+import myBanking from "./worksImg/myBanking.png";
 
 export const worksData = [
   {
@@ -59,7 +62,7 @@ export const worksData = [
     url: "https://nimble-nasturtium-aeb258.netlify.app/",
     github: "https://github.com/nadiellymedeiros/Financial-Control",
     Description: "Controle financeiro com entrada e saída",
-    stacks: ["Javascript", "HTML", "CSS"],
+    stacks: ["Javascript", "HTML", "CSS, React"],
   },
 
   {
@@ -70,7 +73,7 @@ export const worksData = [
     github: "https://github.com/nadiellymedeiros/ImaFashion-Front-End",
     Description:
       "E-comerce desenvolvido em grupo durante o curso de formação de desenvolvedores",
-    stacks: ["Javascript", "HTML", "CSS"],
+    stacks: ["Javascript", "HTML", "CSS, React"],
   },
 
   {
@@ -100,7 +103,7 @@ export const worksData = [
     url: "https://challenge-news-tech-probem.vercel.app/",
     github: "https://github.com/nadiellymedeiros/challenge-news-tech-probem",
     Description: "Um portal de notícias consumindo uma a API newsAPI",
-    stacks: ["HTML", "CSS", "Next"],
+    stacks: ["HTML", "CSS", "React", "Next"],
   },
 
   {
@@ -110,17 +113,18 @@ export const worksData = [
     url: "https://lucky-sfogliatella-1d205b.netlify.app/",
     github: "https://github.com/nadiellymedeiros/investment-control",
     Description: "Controle de investimento separando por categorias",
-    stacks: ["HTML", "CSS", "Javascript"],
+    stacks: ["HTML", "CSS", "Javascript, React"],
   },
 
   {
     id: "10",
     img: portifolio,
-    worksName: "Controle de investimentos",
+    worksName: "Portifólio",
     url: "https://rainbow-khapse-aacd1c.netlify.app/",
     github: "https://github.com/nadiellymedeiros/portfolio",
-    Description: "Portifólio com trabalhos feitos para treinar as tecnologias estudadas.",
-    stacks: ["HTML", "CSS", "Javascript"],
+    Description:
+      "Portifólio com trabalhos feitos para treinar as tecnologias estudadas.",
+    stacks: ["HTML", "CSS", "Javascript, React"],
   },
 
   {
@@ -131,5 +135,33 @@ export const worksData = [
     github: "https://github.com/nadiellymedeiros/to-do-Simple-Leoujo",
     Description: "To do list com checkbox , excluir e editar a tarefa",
     stacks: ["HTML", "CSS", "Javascript"],
+  },
+  {
+    id: "12",
+    img: taskManager,
+    worksName: "Gerenciador de Tarefas",
+    url: "https://graceful-pudding-16476e.netlify.app/pages/taskmanager/taskmanager?",
+    github: "https://github.com/nadiellymedeiros/to-do-complete-JS",
+    Description: "Gerenciador de tarefas com status",
+    stacks: ["HTML", "CSS", "Javascript"],
+  },
+  {
+    id: "13",
+    img: githubFinder,
+    worksName: "Buscador de usuários no github",
+    url: "https://splendid-pithivier-04cb62.netlify.app/",
+    github: "https://github.com/nadiellymedeiros/github_finder_react",
+    Description: "Gerenciador de tarefas com status",
+    stacks: ["HTML", "CSS", "Javascript, React"],
+  },
+  {
+    id: "14",
+    img: myBanking,
+    worksName: "Meu Banco",
+    url: "https://github.com/nadiellymedeiros/my-bank-frontend",
+    github: "https://github.com/nadiellymedeiros/my-bank-frontend",
+    Description:
+      "Banco feito em Angular, o usuário pode logar e fazer as transações de saque depósito e transferência",
+    stacks: ["HTML", "CSS", "Javascript, Angular"],
   },
 ];
