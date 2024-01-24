@@ -2,7 +2,7 @@ import analogicClock from "./worksImg/analogicClock.png";
 import calculatorBlackOrWhite from "./worksImg/calculatorBlackOrWhite.png";
 import calculatorWhithHistory from "./worksImg/calculatorWhiteHistory.png";
 import creditCard from "./worksImg/creditCard.png";
-import financialControl from "./worksImg/financialControl.png";
+import financialControl from "../assets/financialControl.png";
 import imaFashion from "./worksImg/imaFashion.png";
 import marioGame from "./worksImg/marioGame.png";
 import ticTacToe from "./worksImg/ticTacToe.png";
